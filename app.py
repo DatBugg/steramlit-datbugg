@@ -6,7 +6,7 @@ from homepage import homepage
 from pages.cloud.curso1.curso import cloud_curso1
 from pages.cloud.curso2.curso import cloud_curso2
 
-from pages.programacion.curso1.curso import programacion_curso1
+from pages.programacion.curso_streamlit.curso import programacion_streamlit
 from pages.programacion.curso2.curso import programacion_curso2
 
 from pages.utilidades.curso1.curso import utilidades_curso1
@@ -29,8 +29,8 @@ elif menu == "Cloud":
         cloud_curso2()
 
 elif menu == "Programación":
-    if submenu == "Curso 1":
-        programacion_curso1()
+    if submenu == "Streamlit":
+        programacion_streamlit()
     elif submenu == "Curso 2":
         programacion_curso2()
 

@@ -8,7 +8,7 @@ def sidebar_menu():
     if menu == "Cloud":
         submenu = st.sidebar.selectbox("Selecciona un curso en Cloud:", ["Curso 1", "Curso 2"])
     elif menu == "Programación":
-        submenu = st.sidebar.selectbox("Selecciona un curso en Programación:", ["Curso 1", "Curso 2"])
+        submenu = st.sidebar.selectbox("Selecciona un curso en Programación:", ["Streamlit", "Curso 2"])
     elif menu == "Utilidades":
         submenu = st.sidebar.selectbox("Selecciona un curso en Utilidades:", ["Curso 1", "Curso 2"])
 
