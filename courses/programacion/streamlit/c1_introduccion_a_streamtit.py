@@ -1,6 +1,6 @@
 import streamlit as st
 
-def programacion_streamlit():
+def c1_introduccion_a_streamtit():
     # Configuración de la página
     st.title("🚀 Minicurso: Introducción a Streamlit")
     st.write("Aprende a construir aplicaciones interactivas con **Streamlit** en Python.")
