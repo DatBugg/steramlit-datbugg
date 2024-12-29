@@ -1,6 +1,6 @@
 import streamlit as st
 
-def c2_deploy():
+def e2_deploy():
     # Configuración de la página
     st.title("🚀 Minicurso: Introducción a Streamlit")
     st.write("Aprende a construir aplicaciones interactivas con **Streamlit** en Python.")
