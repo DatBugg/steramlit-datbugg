@@ -1,10 +1,10 @@
 import streamlit as st
 
 def show_home():
-    """Función para mostrar la página de inicio en Streamlit."""
-    st.title("Welcome to DatBugg")
+    """Function to show the home page in Streamlit."""
+    st.title("Welcome to DatBugg Streamlit")
 
-    # Uso de columnas para distribuir los botones horizontalmente
+    # Using columns to distribute buttons horizontally
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
@@ -16,6 +16,4 @@ def show_home():
     with col4:
         st.markdown('<a href="https://share.streamlit.io/user/datbugg" target="_blank"><button style="all: unset; cursor: pointer;">Streamlit</button></a>', unsafe_allow_html=True)
 
-    # Caja de descripción del sitio
-    st.subheader("De qué trata este sitio")
-    st.write("Este sitio está dedicado a compartir contenido útil sobre tecnología, programación, y herramientas para potenciar tu productividad.")
+    
